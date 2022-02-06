@@ -6,3 +6,4 @@
 *.key
 *.db
 manager_tuya
+t/*

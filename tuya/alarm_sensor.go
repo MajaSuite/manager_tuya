@@ -21,7 +21,3 @@ func NewAlarmSensor() Device {
 func (a *AlarmSensor) String() string {
 	return fmt.Sprintf(`{"ip":"%s"}`, a.IP())
 }
-
-func (a *AlarmSensor) Start() error {
-	return fmt.Errorf("started")
-}
